@@ -1,0 +1,47 @@
+.invalid-input {
+    border: 2px solid pink;
+  }
+#background{
+    background-color:green;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.hFont{
+    font-family: 'Times New Roman', Times, serif;
+}
+  .entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  input,
+  select {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  .checkbox-label {
+    display: inline-block;
+    margin-left: 4px;
+    white-space: nowrap;
+    width: 100px;
+  }
+  

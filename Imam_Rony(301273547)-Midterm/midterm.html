@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Hands On Data Entry</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="midterm.js" defer></script>
+</head>
+<body>
+    <div id="background">
+    <form id="myForm">
+        <div class="entry">
+            <h2 class="hFont">Billing Address</h2>
+            <label for="firstName1">First Name:</label>
+            <input type="text" id="firstName1" required><br>
+
+            <label for="lastName1">Last Name:</label>
+            <input type="text" id="lastName1" required><br>
+
+            <label for="address1">Street Address:</label>
+            <input type="text" id="address1" required><br>
+
+            <label for="country1">Country:</label>
+            <input type="text" id="country1" required><br>
+
+            <label for="state1">State:</label>
+            <select id="state1" required>
+                <option value="">Select a state</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select><br>
+
+            <label for="zip1">Zip code:</label>
+            <input type="text" id="zip1" required><br>
+
+            <label for="phone1">Phone:</label>
+            <input type="text" id="phone1" required><br>
+        </div>
+
+        <div class="entry">
+            <h2 class="hFont">Delivery Address</h2>
+            <input type="checkbox" id="sameAsEntry1">
+            <label for="sameAsEntry1" class="checkbox-label">Same as billing address</label><br>
+
+            <label for="firstName2">First Name:</label>
+            <input type="text" id="firstName2" required><br>
+
+            <label for="lastName2">Last Name:</label>
+            <input type="text" id="lastName2" required><br>
+
+            <label for="address2">Street Address:</label>
+            <input type="text" id="address2" required><br>
+
+            <label for="country2">Country:</label>
+            <input type="text" id="country2" required><br>
+
+            <label for="state2">State:</label>
+            <select id="state2" required>
+                <option value="">Select a state</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select><br>
+
+            <label for="zip2">Zip code:</label>
+            <input type="text" id="zip2" required><br>
+
+            <label for="phone2">Phone:</label>
+            <input type="text" id="phone2" required><br>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
